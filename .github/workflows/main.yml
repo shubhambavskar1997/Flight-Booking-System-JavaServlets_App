@@ -8,6 +8,9 @@ jobs:
     name: Java-App
     runs-on: self-hosted
     steps:
+      - name: Checkout the files
+        uses: action/checkout@v2
+        
       - name: Package-Java-app 
         run: 
           echo "Start the Build"
