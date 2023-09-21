@@ -1,4 +1,4 @@
-name: Demo-deployment
+name: Demo-Java-deployment
 
 on:
   workflow_dispatch:
