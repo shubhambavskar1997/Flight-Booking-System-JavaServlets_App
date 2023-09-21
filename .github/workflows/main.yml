@@ -5,11 +5,11 @@ on:
 
 jobs: 
   deploy:
-    name: Hello-World
+    name: Java-App
     runs-on: self-hosted
     steps:
-      - name: Print Hello World 
-        run: |
+      - name: Package-Java-app 
+        run: 
           echo "Start the Build"
           mvn -f Project/TurkishAirlines/build.xml package
           echo "Package complete."
